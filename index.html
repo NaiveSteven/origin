@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>shuzi</title>
+  </head>
+  <script>
+    ~function anonymous(){
+        let computedREM = function(){
+            let winW = document.documentElement.clientWidth,
+                desW = 1920;
+                document.documentElement.style.fontsize = winW / desW * 100 + "px";
+        };
+        computedREM();
+    };
+  </script>
+  <body style="overflow-x: hidden;min-width: 15rem;">
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
